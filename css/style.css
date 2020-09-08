@@ -1,0 +1,217 @@
+/*! Sass Compiled Document */
+/* BEGIN SASS VARIABLES */
+/* END SASS VARIABLES */
+/*!
+  *****************************************************
+  *                                                   *
+  *    OTH Amberg-Weiden                              *
+  *    Medientechnik und Medienproduktion (Master)    *
+  *    Web-Engineering                                *
+  *    Studienarbeit: Rapid Feedback mit dem TED      *
+  *                                                   *
+  *    Design und Realisierung:                       *
+  *                                                   *
+  *    Marco Hanelt und Philipp Jetschina             *
+  *    marco@lunaarte.de                              *
+  *    kontakt@jetschina.de                           *
+  *                                                   *
+  *****************************************************
+  */
+/* IMPORTS */
+@import url("https://fonts.googleapis.com/css?family=Hind+Vadodara:300,400,500,600,700");
+body {
+  background-color: #ffffff;
+  font-family: "Hind Vadodara", sans-serif;
+  font-weight: 400; }
+
+/* Flexbox Layout */
+.header {
+  border-bottom: 2px solid #4d4d4b; }
+
+.header_container, .header_item {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  list-style: none; }
+
+.logo {
+  width: auto;
+  height: auto;
+  max-width: 5em;
+  max-height: 5em;
+  margin-left: 2em; }
+
+.content {
+  margin-left: auto;
+  margin-right: auto;
+  width: 30em; }
+
+h1 {
+  font-weight: 600;
+  text-decoration: none;
+  color: #00b9ee;
+  margin: 1em auto 0;
+  width: auto; }
+
+.question {
+  margin-top: 1em;
+  margin-bottom: 0;
+  padding: 0;
+  font-weight: 400;
+  font-size: 1.5em; }
+
+.list {
+  margin-top: 0;
+  font-weight: 400;
+  font-size: 1.25em; }
+
+.answer {
+  font-weight: 400;
+  font-size: 1em; }
+
+#chartContainer {
+  height: 30em;
+  width: 45em; }
+
+#umfragen {
+  width: auto; }
+
+.umfrage_timer {
+  margin-top: 2em;
+  margin-bottom: 2em;
+  padding: 0;
+  font-weight: 400;
+  font-size: 1.5em; }
+
+.umfrage_fragen {
+  font-weight: 400;
+  font-size: 1.5em;
+  margin-bottom: 2em; }
+  .umfrage_fragen label {
+    margin: 0 !important;
+    padding: 0 !important;
+    float: left;
+    width: 7em; }
+  .umfrage_fragen input {
+    width: 1em !important;
+    padding: .5em;
+    border: none !important; }
+
+.umfrage_element {
+  margin: 0 0 .5em !important;
+  padding: 0;
+  border: none; }
+
+/* Popup und Forms */
+/* Sass Document*/
+/* Popup and Form Layout*/
+.input_container_pop {
+  position: relative;
+  margin: 0em 2em 1em;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* Buttons */
+/* Sass Document */
+/* Buttons Layout */
+.button {
+  border: none;
+  background-color: #e7e7e7;
+  color: #00b9ee;
+  font-weight: 600;
+  font-size: 1em;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  width: auto;
+  min-width: 8em;
+  max-width: 15em;
+  height: 2.5em;
+  border-radius: 5px; }
+  .button:hover {
+    cursor: pointer;
+    background-color: #00b9ee;
+    color: #ffffff;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s; }
+
+.button_pos {
+  margin-left: 10em; }
+
+.button_pos2 {
+  margin: .5em; }
+
+.input_container {
+  position: relative;
+  margin: 0em 2em 1em;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  vertical-align: baseline; }
+
+.session_id_container {
+  position: relative;
+  margin: 2em 0em .5em;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  vertical-align: baseline; }
+
+label {
+  width: 12em;
+  float: left;
+  padding-top: .5em; }
+
+input {
+  font-size: 1em;
+  padding: .5em;
+  border: 2px solid #4d4d4b;
+  border-radius: 5px;
+  width: 15em; }
+
+.dropdown {
+  font-size: 1em;
+  padding: 0.5em;
+  border: 2px solid #4d4d4b;
+  border-radius: 5px;
+  width: 7em; }
+
+.timer2 {
+  width: 7em !important; }
+
+#placeholder {
+  position: relative;
+  width: 100%;
+  height: 6em; }
+
+.footer {
+  background-color: #ffffff;
+  bottom: 0;
+  height: 2em;
+  line-height: 2em;
+  margin: 0 auto;
+  padding: 1em 0;
+  position: fixed;
+  text-align: center;
+  width: 100%;
+  z-index: 10;
+  border-top: 2px solid #4d4d4b;
+  vertical-align: baseline;
+  display: block; }
+
+footer {
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center; }
+  footer span {
+    color: #000000;
+    font-size: 1em; }
+    footer span a {
+      font-weight: 400;
+      text-decoration: none; }
+
+/* Responsive Transition */
