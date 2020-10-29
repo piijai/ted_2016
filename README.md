@@ -2,9 +2,9 @@
 Ein webbasiertes Umfragetool mit Adminbereich
 
 
-OTH Amberg-Weiden
-Medientechnik und Medienproduktion (Master)
-Web-Engineering
+OTH Amberg-Weiden\
+Medientechnik und Medienproduktion (Master)\
+Web-Engineering\
 Studienarbeit: Rapid Feedback mit dem TED
 
 
