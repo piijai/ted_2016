@@ -2,14 +2,14 @@
 Ein webbasiertes Umfragetool mit Adminbereich
 
 
-OTH Amberg-Weiden\
-Medientechnik und Medienproduktion (Master)\
-Web-Engineering\
+Hochschule: OTH Amberg-Weiden\
+Studiengang: Medientechnik und Medienproduktion (Master)\
+Vorlesung: Web-Engineering\
 Studienarbeit: Rapid Feedback mit dem TED
 
 
 Design und Realisierung:  
 
-Marco Hanelt und Philipp Jetschina<br/>
-marco@lunaarte.de<br/>
+Marco Hanelt und Philipp Jetschina\
+marco@lunaarte.de\
 kontakt@jetschina.de
